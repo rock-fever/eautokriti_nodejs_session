@@ -1,0 +1,35 @@
+.main_con, .chatForm_con{
+    width:70%;
+    margin-left:auto;
+    margin-right: auto;
+    min-width:500px;
+    height:auto;
+}
+
+.main_con{
+    border: 1px solid black;
+    min-height: 400px;
+}
+.message{
+    background-color: rgb(153, 148, 148);
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    padding:5px;
+    border-radius:10px;
+}
+
+.message p{
+    margin:5px;
+}
+
+.msg_username{
+    font-weight: bold;   
+}
+
+.someone_typing{
+    font-weight: bold;
+    color:green;
+    font-size: 16px;
+}

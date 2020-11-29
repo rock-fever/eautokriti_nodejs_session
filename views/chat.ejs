@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="emitUserInfo()">
+    <div class="main_con">
+        <div class="main_header">
+            Chatting Application
+        </div>
+        <div class="someone_typing">
+
+        </div>
+        <div class="user_info">
+            <div class="user_room">Room: <%=room%></div>
+            <div class="username">Username: <%=username%></div>
+        </div>
+        <div class="users_list">
+
+        </div>
+        <div class="chat_container">
+        
+        </div>
+    </div>
+    
+   
+   
+   <div class="chatForm_con">
+       <form action="#" id="chatForm">
+           <input type="text" name="msg" id="msg" oninput="sendTyping()">
+           <input type="submit" value="send" id="sendMessage">
+       </form>
+   </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/client.js"></script>
+</html>
